@@ -3,10 +3,11 @@ import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucid
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import './Home.css'
 
 // Memoized Components
 const StatusBadge = memo(() => (
-  <div className="inline-block animate-float lg:mx-0" data-aos="zoom-in" data-aos-delay="400" style={{marginLeft:"60px"}}>
+  <div className="inline-block animate-float lg:mx-0" data-aos="zoom-in" data-aos-delay="400" id="margin">
     <div className="relative group">
       <div className="absolute -inset-0.5 bg-gradient-to-r from-[#6366f1] to-[#a855f7] rounded-full blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
@@ -20,7 +21,7 @@ const StatusBadge = memo(() => (
 ));
 
 const MainTitle = memo(() => (
-  <div className="space-y-2" data-aos="fade-up" data-aos-delay="600" style={{marginLeft:"60px"}}>
+  <div className="space-y-2" data-aos="fade-up" data-aos-delay="600" id="margin">
     <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-7xl font-bold tracking-tight">
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
@@ -173,7 +174,7 @@ const Home = () => {
                 <MainTitle />
 
                 {/* Typing Effect */}
-                <div className="h-8 flex items-center" data-aos="fade-up" data-aos-delay="800" style={{marginLeft:"60px"}}>
+                <div className="h-8 flex items-center" data-aos="fade-up" data-aos-delay="800" id="margin">
                   <span className="text-xl md:text-2xl bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent font-light">
                     {text}
                   </span>
@@ -183,24 +184,24 @@ const Home = () => {
                 {/* Description */}
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
-                  data-aos-delay="1000" style={{marginLeft:"60px"}}>
+                  data-aos-delay="1000" id="margin">
 A Result-Oriented Web Developer building and managing Websites and Web                </p>
 
                 {/* Tech Stack */}
-                <div className="flex flex-wrap gap-3 justify-start" data-aos="fade-up" data-aos-delay="1200" style={{marginLeft:"60px"}}>
+                <div className="flex flex-wrap gap-3 justify-start" data-aos="fade-up" data-aos-delay="1200" id="margin">
                   {TECH_STACK.map((tech, index) => (
                     <TechStack key={index} tech={tech} />
                   ))}
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-row gap-3 w-full justify-start" data-aos="fade-up" data-aos-delay="1400" style={{marginLeft:"60px"}}>
+                <div className="flex flex-row gap-3 w-full justify-start" data-aos="fade-up" data-aos-delay="1400" id="margin">
                   <CTAButton href="#Portofolio" text="Projects" icon={ExternalLink} />
                   <CTAButton href="#Contact" text="Contact" icon={Mail} />
                 </div>
 
                 {/* Social Links */}
-                <div className="hidden sm:flex gap-4 justify-start" data-aos="fade-up" data-aos-delay="1600"style={{marginLeft:"60px"}}>
+                <div className="hidden sm:flex gap-4 justify-start" data-aos="fade-up" data-aos-delay="1600" id="margin">
                   {SOCIAL_LINKS.map((social, index) => (
                     <SocialLink key={index} {...social} />
                   ))}

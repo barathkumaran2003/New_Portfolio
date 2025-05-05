@@ -506,7 +506,7 @@ export default function FullWidthTabs() {
                   Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally                 </p> 
                   <div className="pt-4 flex items-center justify-between">
                       <a
-                      href="https://pointexpert.vercel.app/"
+                      href="https://new-portfolio-9foz.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
@@ -563,11 +563,10 @@ export default function FullWidthTabs() {
                  Proposal              </h3>
                   
                   <p className="text-gray-300/80 text-sm leading-relaxed line-clamp-2">
-                  Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.                  </p>
-                  
+                  Proposal is a beautifully crafted React-based website designed to express love and emotions in a creative and engaging way. Whether it's for a special occasion or a heartfelt digital proposal, this project delivers a stunning, interactive experience.                  </p>                  
                   <div className="pt-4 flex items-center justify-between">
                       <a
-                      href="https://pointexpert.vercel.app/"
+                      href="https://barathkumaran2003.github.io/Proposal/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
@@ -577,7 +576,7 @@ export default function FullWidthTabs() {
                       </a>
                   
                       <Link
-                        to="/PointExpert"
+                        to="/Proposal"
                         className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-all duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                       >
                         <span className="text-sm font-medium">Details</span>
@@ -625,11 +624,12 @@ export default function FullWidthTabs() {
                   Calculator                </h3>
                   
                   <p className="text-gray-300/80 text-sm leading-relaxed line-clamp-2">
-                  Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.                  </p>
+                  Calculator is a simple web-based application built using HTML, CSS, and JavaScript that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean user interface, responsive design, and real-time calculation updates as users input values. The project demonstrates practical use of DOM manipulation and event handling in JavaScript.   </p>
+
                   
                   <div className="pt-4 flex items-center justify-between">
                       <a
-                      href="https://pointexpert.vercel.app/"
+                      href="https://barathkumaran2003.github.io/Calculator/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
@@ -639,7 +639,7 @@ export default function FullWidthTabs() {
                       </a>
                   
                       <Link
-                        to="/PointExpert"
+                        to="/Calculator"
                         className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-all duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                       >
                         <span className="text-sm font-medium">Details</span>

@@ -13,6 +13,9 @@ import AnimatedBackground from "./components/Background";
 import { AnimatePresence } from "framer-motion";
 import Hotelcasestudy from "./components/Hotelcasestudy";
 import Motorcasestudy from "./components/Motorcasestudy";
+import Proposalcasestudy from "./components/Poroposalcasestudy";
+import { Calculate } from "@mui/icons-material";
+import Calculator from "./components/Calculator";
 
 // Layout for all normal pages
 const PageLayout = ({ children }) => (
@@ -94,6 +97,22 @@ function App() {
             element={
               <PageLayout>
                 <Motorcasestudy />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/Proposal"
+            element={
+              <PageLayout>
+                <Proposalcasestudy />
+              </PageLayout>
+            }
+          />
+           <Route
+            path="/Calculator"
+            element={
+              <PageLayout>
+               <Calculator />
               </PageLayout>
             }
           />

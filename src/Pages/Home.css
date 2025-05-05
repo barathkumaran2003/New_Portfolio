@@ -1,0 +1,9 @@
+#margin{
+    margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+    #margin{
+        margin-left: 0px;
+    }
+  }

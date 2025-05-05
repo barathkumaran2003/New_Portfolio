@@ -17,7 +17,7 @@ const TECH_ICONS = {
   default: Package,
 };
 
-const Portfoliocasestudy = () => {
+const Calculator = () => {
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   //   const storedProjects = JSON.parse(localStorage.getItem("projects")) || [];
@@ -71,7 +71,7 @@ const Portfoliocasestudy = () => {
             <div className="flex items-center space-x-1 md:space-x-2 text-sm md:text-base text-white/50">
               <span>Projects</span>
               <ChevronRight className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="text-white/90 truncate">Portfolio</span>
+              <span className="text-white/90 truncate">Calculator</span>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ const Portfoliocasestudy = () => {
             <div className="space-y-6 md:space-y-10 animate-slideInLeft">
               <div className="space-y-4 md:space-y-6">
                 <h1 className="text-3xl md:text-6xl font-bold bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight">
-                Portfolio
+                Calculator
                 </h1>
                 <div className="relative h-1 w-16 md:w-24">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse" />
@@ -89,13 +89,9 @@ const Portfoliocasestudy = () => {
 
               <div className="prose prose-invert max-w-none">
                 <p className="text-base md:text-lg text-gray-300/90 leading-relaxed">
-                Portfolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch.
+                Calculator is a simple web-based application built using HTML, CSS, and JavaScript that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean user interface, responsive design, and real-time calculation updates as users input values. The project demonstrates practical use of DOM manipulation and event handling in JavaScript.
 
-Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers.
 
-It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template.
-
-Feel free to check out the Project by visiting the Project Link.
                 </p>
               </div>
 
@@ -126,7 +122,7 @@ Feel free to check out the Project by visiting the Project Link.
               <div className="flex flex-wrap gap-3 md:gap-4">
                 {/* Action buttons */}
                 <a
-                  href="https://new-portfolio-9foz.vercel.app/"
+                  href="https://barathkumaran2003.github.io/Calculator/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative inline-flex items-center space-x-1.5 md:space-x-2 px-4 md:px-8 py-2.5 md:py-4 bg-gradient-to-r from-blue-600/10 to-purple-600/10 hover:from-blue-600/20 hover:to-purple-600/20 text-blue-300 rounded-xl transition-all duration-300 border border-blue-500/20 hover:border-blue-500/40 backdrop-blur-xl overflow-hidden text-sm md:text-base"
@@ -137,7 +133,7 @@ Feel free to check out the Project by visiting the Project Link.
                 </a>
 
                 <a
-                  href="https://github.com/barathkumaran2003/New_Portfolio"
+                  href="https://github.com/barathkumaran2003/Calculator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative inline-flex items-center space-x-1.5 md:space-x-2 px-4 md:px-8 py-2.5 md:py-4 bg-gradient-to-r from-purple-600/10 to-pink-600/10 hover:from-purple-600/20 hover:to-pink-600/20 text-purple-300 rounded-xl transition-all duration-300 border border-purple-500/20 hover:border-purple-500/40 backdrop-blur-xl overflow-hidden text-sm md:text-base"
@@ -156,7 +152,7 @@ Feel free to check out the Project by visiting the Project Link.
                 </h3>
                 
                 <div className="flex flex-wrap gap-2 md:gap-3">
-  {["React.js", "Node.js", "MongoDB"].map((tech, idx) => {
+  {["HTML", "CSS", "Javascript"].map((tech, idx) => {
     const IconComponent = TECH_ICONS[tech] || TECH_ICONS.default;
     return (
       <div
@@ -181,7 +177,7 @@ Feel free to check out the Project by visiting the Project Link.
               
                 <div className="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <img
-                  src="/photal.png"
+                  src="/calculator.png"
                   alt="asd"
                   className="w-full  object-cover transform transition-transform duration-700 will-change-transform group-hover:scale-105"
                 />
@@ -311,4 +307,4 @@ Feel free to check out the Project by visiting the Project Link.
   );
 };
 
-export default Portfoliocasestudy;
+export default Calculator;
